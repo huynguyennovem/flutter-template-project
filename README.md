@@ -12,3 +12,6 @@ This project uses following dependences:
 1. ApiService: handle network queries
 2. DatabaseService: handle database queries
 3. *Provider: concrete class of ChangeNotifier, data manipulation
+
+### Sample
+This project uses test API from: https://www.anapioficeandfire.com/api/characters
