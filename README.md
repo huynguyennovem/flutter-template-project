@@ -1,16 +1,14 @@
-# flutter_template_project
+A template Flutter project used for starter
 
-A new Flutter project.
+### Overview
+This project uses following dependences:
+- `http`: handle HTTP requests
+- `provider`: wrapper around `InheritedWidget`, mainly app state management
+- `dartz`: functional programming in Dart
+- `get_it`: service locator
+- `go_router`: route management
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Modules
+1. ApiService: handle network queries
+2. DatabaseService: handle database queries
+3. *Provider: concrete class of ChangeNotifier, data manipulation
