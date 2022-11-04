@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_template_project/data/api_service.dart';
 import 'package:flutter_template_project/di/di.dart';
-import 'package:flutter_template_project/provider/file_provider.dart';
+import 'package:flutter_template_project/provider/character_provider.dart';
 import 'package:provider/provider.dart';
 
 class CharacterListWidget extends StatefulWidget {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_template_project/config/constants.dart';
 import 'package:flutter_template_project/di/di.dart';
 import 'package:flutter_template_project/provider/db_provider.dart';
-import 'package:flutter_template_project/provider/file_provider.dart';
+import 'package:flutter_template_project/provider/character_provider.dart';
 import 'package:flutter_template_project/ui/character_list_widget.dart';
 import 'package:flutter_template_project/ui/home_widget.dart';
 import 'package:go_router/go_router.dart';
