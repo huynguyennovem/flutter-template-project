@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_template_project/data/api_service.dart';
-import 'package:flutter_template_project/di/di.dart';
-import 'package:flutter_template_project/provider/character_provider.dart';
 import 'package:provider/provider.dart';
+
+import '../data/api_service.dart';
+import '../di/di.dart';
+import '../provider/character_provider.dart';
 
 class CharacterListWidget extends StatefulWidget {
   const CharacterListWidget({Key? key}) : super(key: key);

@@ -1,5 +1,6 @@
-import 'package:flutter_template_project/data/api_service.dart';
 import 'package:get_it/get_it.dart';
+
+import '../data/api_service.dart';
 
 final getIt = GetIt.instance;
 

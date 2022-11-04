@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_template_project/entity/character_entity.dart';
+
+import 'character_entity.dart';
 
 class ListCharacter extends Equatable {
   final List<Character> characters;

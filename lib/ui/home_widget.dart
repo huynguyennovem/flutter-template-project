@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_template_project/config/constants.dart';
-import 'package:flutter_template_project/config/utilities.dart';
 import 'package:go_router/go_router.dart';
+
+import '../config/constants.dart';
+import '../config/utilities.dart';
 
 class HomeWidget extends StatefulWidget {
   const HomeWidget({super.key});

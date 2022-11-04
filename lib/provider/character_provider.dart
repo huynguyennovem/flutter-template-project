@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_template_project/entity/character_entity.dart';
-import 'package:flutter_template_project/entity/list_character_entity.dart';
+
+import '../entity/character_entity.dart';
+import '../entity/list_character_entity.dart';
 
 class CharacterProvider extends ChangeNotifier {
     ListCharacter _characters = ListCharacter.empty();

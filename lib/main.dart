@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_template_project/config/constants.dart';
-import 'package:flutter_template_project/di/di.dart';
-import 'package:flutter_template_project/provider/db_provider.dart';
-import 'package:flutter_template_project/provider/character_provider.dart';
-import 'package:flutter_template_project/ui/character_list_widget.dart';
-import 'package:flutter_template_project/ui/home_widget.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
+
+import 'config/constants.dart';
+import 'di/di.dart';
+import 'provider/character_provider.dart';
+import 'provider/db_provider.dart';
+import 'ui/character_list_widget.dart';
+import 'ui/home_widget.dart';
 
 void main() {
   setupDI();
